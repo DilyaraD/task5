@@ -24,5 +24,12 @@ namespace task5
         {
             InitializeComponent();
         }
+
+        private void tt(object sender, RoutedEventArgs e)
+        {
+            MainWindow m = new MainWindow();
+            m.Show();
+            Close();
+        }
     }
 }
